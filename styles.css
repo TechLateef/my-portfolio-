@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding:0;
+    background-color:#00172d;
+    color: white;
+    box-sizing: border-box;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  box-shadow: 10px 0 2px white;
+
+}
+nav:hover{
+  background-color:rgba(255,255,255,0.2);
+color: black;
+}
+nav a{
+list-style-type: none;
+margin-right:50px;
+background-color: inherit;
+
+}
+#img{
+  background-image: url(images/me.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+
+.content{
+  
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  display: flex;
+font-size: 30px;
+margin:200px auto;
+box-shadow: -10px 5px 5px rgba(255,255,255,0.2) ;
+}
+
+.aboutContainer{
+  height: 500px;
+  width: 100%;
+  background-color:#00172d;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 40px;
+  color: white;
+  margin:50px 700px 0 40px;
+  font-size: 20px;
+}
+.skills-main{
+  display: flex;
+  flex-direction: column;
+ 
+ 
+}
+.skills{
+  display:flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 60px;
+ 
+}
+.skills div{
+  
+border: solid grey 1px;
+  width: 100px;
+  height: 100px;
+  box-shadow:
+  10px -5px 2px rgba(255,255,255,0.2)                       ;
+border-radius: 20px;
+text-align: center;
+padding: 3px;
+
+
+}
+
+img{
+  height: 50px;
+   width: 50px;
+}
