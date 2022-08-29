@@ -16,10 +16,6 @@
   top: 0;
 
 }
-.top-bar > h1{
-  position: relative;
-  opacity: 2;
-}
 
 nav a:hover{
   background-color:rgba(255,255,255,0.2);
@@ -132,7 +128,7 @@ background-color: aqua;
   opacity: 0.9;
 }
 
-@media (max-width:900px){
+@media (max-width:600px){
   .skills-contents{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -142,5 +138,11 @@ background-color: aqua;
     display: grid;
     grid-template-columns: auto auto auto;
    gap: 20px;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
   }
 }
