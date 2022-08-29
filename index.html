@@ -3,58 +3,70 @@
   <head>
     <meta charset="utf-8">
     <title>My-Portfolio</title>
+
     <link rel="stylesheet" href="styles.css">
+    
+    
   </head>
   <body>
     <div class="mainContainer">
+      <div class="top-bar">
+      <div><h1><span style="color: aqua;">Tech</span> Lateef</h1></div>
+      <div>
       <nav>
 
           <a>Home </a>
-          <a>About</a>
-          <a>Project</a>
+          <a id="about-btn" href="#about">About</a>
+          <a href="#p-section" id="project-btn">Project</a>
           <a>Contact</a>
 
       </nav>
-      <div class="intro">
+    </div>
+    </div>
 
-      <div class="content">
-<div id="img">
+  <div class="intro">
 
-</div>
+      
 
-      <h1><pre>
-            Hi,
+
+         <div>
+
+          <h1>
+           <span style="color: aqua;"> Hi</span>,
             I'M Abdullateef Mubarak,
             Full-Stack Developer
 
+          </h1>
 
-          </pre>
+         </div>
+</div>
+
+      <div class="abt-container container">
+        
+          <h1 id="about" >About me</h1>
           
-      </div>
-
-
-
-      </div>
-      <div class="aboutContainer">
-        <div class="about">
-        <h1>About me</h1>
-
+        <div class="about-text">
+            <div class="blue"></div>
         <p>
-        I,m a full-stack Developer, I am known for my ability to solve problems.
+        I,m a full-stack Software Engineer, and since i believe that software Engineers are known for their problem-solving 
+        skills, I have made it a priority of mine to do so every day. We do exprerience difficulties occassionally, but that's 
+        what makes us who we are and strengthen us.My objective is to remain focused and consistently deliver innovative and well-structured
+          solutions to the tech industry by networking with others who share my values. I'm not into tech, but tech is into how i can use it to My
+          advantage to be more creative and productive.
 
-        I'm not into tech, but tech is into how i can use it to my advantage to make wealth and be more productive.
-        My goal is to be consistently deliver innovertive and well structured solutions to the tech industry through
-        networking with others that share my values.
         </p>
+      
         </div>
       </div>
-      <div class="skills-main">
-      <center><h1>skills</h1></center>
-        
-          
-       <div class="skills">
-     
-        
+
+      <div class="skills-main container">
+
+      <h1>skills</h1>
+      
+
+       <div class="skills-contents">
+
+
         <div>HTML</div>
         <div><img src="images/css3.png" alt="css logo"  height=" 60px"
           width="60px"> CSS3</div>
@@ -67,10 +79,68 @@
       </div>
     </div>
 
-    <div class="project">
-      <H1>Projects</H1>
+    <div class="project container" id="p-section" >
+            <H1>Projects</H1>
+    <div class="section">
+      <div class="section-item">
+        <img src="images/pro1.png" alt="rating-component">
+        <cite>This is a Rating component for customers to rate company product or services</cite>
+      </div>
+      <div class="section-item">
+    <img src="images/pro2.png" alt="intro">
+      <cite>This is a Rating component for customers to rate company product or services</cite>
+      </div>
+      <div class="section-item">
+    <img src="images/pro3.png" alt="barchat">
+      <cite>This is a Rating component for customers to rate company product or services</cite>
+      </div>
+      <div class="section-item">
+    <img src="images/pro4 .png" alt="bar">
+      <cite>This is a Rating component for customers to rate company product or services</cite>
+      </div>
+      <div class="section-item">
+          <img src="images/pro4 .png" alt="bar">
+            <cite>This is a Rating component for customers to rate company product or services</cite>
+            </div>
+            <div class="section-item">
+                <img src="images/pro4 .png" alt="bar">
+                  <cite>This is a Rating component for customers to rate company product or services</cite>
+                  </div>
+    </div>
 
     </div>
+    <div></div>
+
+    <section class="container">
+      <h1>Contact me</h1>
+      <form action="mailto:techlateef@gmail.com" method="get">
+        <div id="feedback">
+<input type="text" placeholder="YOUR NAME" class="inner">
+<input type="email" placeholder="YOUR EMAIL" class="inner">
+<textarea name="message" id="message" cols="10" rows="10" class="inner"></textarea>
+</div>
+<button type="submit">submit</button>
+
+      </form>
+
+
+
+
+
+      <p>You can get in touch with me through the social media account listed below. </p>
+
+    </section>
+
+
+    <footer>
+        
+
+
+    </footer>
     </div>
+
+   
+<script type="text/javascript" src="jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
   </body>
 </html>
