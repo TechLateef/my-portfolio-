@@ -16,6 +16,10 @@
   top: 0;
 
 }
+.top-bar > h1{
+  position: relative;
+  opacity: 2;
+}
 
 nav a:hover{
   background-color:rgba(255,255,255,0.2);
@@ -83,7 +87,7 @@ img{
   display: flex;
   gap:40px;
   overflow-x: auto;
-  scroll-snap-type:x proximity;
+  scroll-snap-type:y proximity;
 }
 .section-item > img{
  
@@ -116,4 +120,27 @@ background-color: aqua;
   margin: 20px 100px;
 
   
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.active{
+  transform: translateY(0px);
+  opacity: 0.9;
+}
+
+@media (max-width:900px){
+  .skills-contents{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   gap: 20px;
+  }
+  .section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   gap: 20px;
+  }
 }
