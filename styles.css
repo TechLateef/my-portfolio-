@@ -128,7 +128,7 @@ background-color: aqua;
   opacity: 0.9;
 }
 
-@media (max-width:600px){
+@media (max-width:900px){
   .skills-contents{
     display: grid;
     grid-template-columns: auto auto auto;
